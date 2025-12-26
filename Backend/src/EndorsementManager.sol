@@ -17,7 +17,7 @@ contract EndorsementManager is Ownable {
         string reason;
         string ipfsHash;
         uint256 timestamp;
-        uint8 review; // Rating out of 5
+        uint8 review; 
         bool validated;
     }
 
